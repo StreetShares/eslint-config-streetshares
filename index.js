@@ -41,7 +41,7 @@ module.exports = {
     ],
     "implicit-arrow-linebreak": 0,
     quotes: ["error", "single", { avoidEscape: true }],
-    "prettier/prettier": ["error"],
+    "prettier/prettier": ["warn"],
     "import/prefer-default-export": "off",
     "import/no-default-export": "error",
     "import/order": [
