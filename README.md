@@ -22,7 +22,6 @@ yarn add -D @streetshares/eslint-config-streetshares
 # alternatively (useful for Windows), run the following and add the output packages to devDependencies in the consuming app's package.json
 # THERE IS NO NEED TO DO THIS IF THE ABOVE FUNCTION WORKS (MacOS/Linux)
 npm info @streetshares/eslint-config-streetshares peerDependencies --json
-
 ```
 
 ## Developing
