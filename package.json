@@ -1,6 +1,6 @@
 {
   "name": "@streetshares/eslint-config-streetshares",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Streetshares ESLint config",
   "main": "index.js",
   "repository": "https://github.com/streetshares/eslint-config-streetshares",
@@ -27,9 +27,9 @@
     "node": ">=12"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.29.0",
-    "@typescript-eslint/parser": "^4.29.0",
-    "eslint-config-airbnb-typescript": "^12.3.1",
+    "@typescript-eslint/eslint-plugin": "^4.31.0",
+    "@typescript-eslint/parser": "^4.31.0",
+    "eslint-config-airbnb-typescript": "^14.0.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-config-react": "^1.1.7"
   },
