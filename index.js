@@ -9,13 +9,14 @@ module.exports = {
     "plugin:prettier/recommended", // Enables eslint-plugin-prettier and eslint-config-prettier. This will display prettier errors as ESLint errors. Make sure this is always the last configuration in the extends array.
   ],
   plugins: [
-    "react",
-    "react-hooks",
-    "unused-imports",
     "jsx-a11y",
-    "scanjs-rules",
     "no-unsanitized",
     "prototype-pollution-security-rules",
+    "react",
+    "react-hooks",
+    "scanjs-rules",
+    "unused-imports",
+    "unicorn",
   ],
   parserOptions: {
     ecmaVersion: 2020, // Allows for the parsing of modern ECMAScript features
@@ -129,5 +130,9 @@ module.exports = {
     "prototype-pollution-security-rules/detect-merge-objects": 1,
     "prototype-pollution-security-rules/detect-merge-options": 1,
     "prototype-pollution-security-rules/detect-deep-extend": 1,
+    "unicorn/prefer-includes": 'error',
+    "unicorn/numeric-separators-style": 'error',
+    "unicorn/explicit-length-check": 'error',
+    "unicorn/better-regex": 'error',
   },
 };

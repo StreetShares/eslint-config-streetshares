@@ -1,6 +1,6 @@
 {
   "name": "@streetshares/eslint-config-streetshares",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Streetshares ESLint config",
   "main": "index.js",
   "repository": "https://github.com/streetshares/eslint-config-streetshares",
@@ -45,6 +45,7 @@
     "eslint-plugin-react": "^7.21.3",
     "eslint-plugin-react-hooks": "^4.1.0",
     "eslint-plugin-scanjs-rules": "^0.2.1",
+    "eslint-plugin-unicorn": "^37.0.1",
     "eslint-plugin-unused-imports": "^1.0.0"
   }
 }
