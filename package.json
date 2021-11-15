@@ -1,6 +1,6 @@
 {
   "name": "@streetshares/eslint-config-streetshares",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Streetshares ESLint config",
   "main": "index.js",
   "repository": "https://github.com/streetshares/eslint-config-streetshares",

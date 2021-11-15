@@ -69,6 +69,7 @@ module.exports = {
     "global-require": 0,
     "react/jsx-wrap-multilines": 0,
     "react/require-default-props": 0,
+    "react/jsx-no-duplicate-props": [1, { ignoreCase: false }],
     "no-unused-vars": 0,
     // '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
     "@typescript-eslint/camelcase": 0,
