@@ -9,6 +9,7 @@ module.exports = {
     "plugin:prettier/recommended", // Enables eslint-plugin-prettier and eslint-config-prettier. This will display prettier errors as ESLint errors. Make sure this is always the last configuration in the extends array.
   ],
   plugins: [
+    "anti-trojan-source",
     "jsx-a11y",
     "no-unsanitized",
     "prototype-pollution-security-rules",
@@ -31,7 +32,6 @@ module.exports = {
   },
   rules: {
     // Place to specify ESLint rules. Can be used to overwrite rules specified from the extended configs
-    // e.g. "@typescript-eslint/explicit-function-return-type": "off",
     "@typescript-eslint/explicit-function-return-type": "off",
     "@typescript-eslint/indent": 0,
     "operator-linebreak": 0,
@@ -70,6 +70,7 @@ module.exports = {
     "react/jsx-wrap-multilines": 0,
     "react/require-default-props": 0,
     "react/jsx-no-duplicate-props": [1, { ignoreCase: false }],
+    "react/function-component-definition": 0,
     "no-unused-vars": 0,
     // '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
     "@typescript-eslint/camelcase": 0,
@@ -135,5 +136,8 @@ module.exports = {
     "unicorn/numeric-separators-style": 'error',
     "unicorn/explicit-length-check": 'error',
     "unicorn/better-regex": 'error',
+
+    // https://snyk.io/blog/how-to-detect-mitigate-trojan-source-attacks-javascript-eslint/
+    "anti-trojan-source/no-bidi": "error",
   },
 };
