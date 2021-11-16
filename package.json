@@ -50,6 +50,11 @@
     "eslint-plugin-unused-imports": "^2.0.0"
   },
   "devDependencies": {
+    "@auto-it/all-contributors": "^10.32.2",
+    "@auto-it/conventional-commits": "^10.32.2",
+    "@auto-it/jira": "^10.32.2",
+    "@auto-it/slack": "^10.32.2",
+    "auto": "^10.32.2",
     "eslint": "^8.2.0",
     "eslint-plugin-anti-trojan-source": "^1.0.6",
     "eslint-plugin-import": "^2.25.3",
@@ -72,5 +77,16 @@
   },
   "scripts": {
     "test": "mocha"
+  },
+  "auto": {
+    "plugins": [
+      "npm",
+      "all-contributors",
+      "conventional-commits",
+      "jira",
+      "released",
+      "slack"
+    ],
+    "onlyPublishWithReleaseLabel": true
   }
 }
