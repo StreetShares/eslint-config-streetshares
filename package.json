@@ -1,6 +1,6 @@
 {
   "name": "@streetshares/eslint-config-streetshares",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Streetshares ESLint config",
   "main": "index.js",
   "repository": "https://github.com/streetshares/eslint-config-streetshares",
@@ -24,28 +24,28 @@
     "eslintconfig"
   ],
   "engines": {
-    "node": ">=12"
+    "node": ">=12 <17"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.31.0",
-    "@typescript-eslint/parser": "^4.31.0",
-    "eslint-config-airbnb": "^18.2.1",
-    "eslint-config-airbnb-typescript": "^14.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "eslint-config-airbnb": "^19.0.0",
+    "eslint-config-airbnb-typescript": "^15.0.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-config-react": "^1.1.7"
   },
   "peerDependencies": {
-    "eslint": "^7.14.0",
-    "eslint-plugin-import": "^2.22.0",
-    "eslint-plugin-jest": "^24.0.2",
-    "eslint-plugin-jsx-a11y": "^6.4.0",
-    "eslint-plugin-no-unsanitized": "^3.1.4",
-    "eslint-plugin-prettier": "^3.1.2",
+    "eslint": "^8.2.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jest": "^25.2.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-no-unsanitized": "^4.0.0",
+    "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-prototype-pollution-security-rules": "^1.0.6",
-    "eslint-plugin-react": "^7.21.3",
-    "eslint-plugin-react-hooks": "^4.1.0",
+    "eslint-plugin-react": "^7.27.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
     "eslint-plugin-scanjs-rules": "^0.2.1",
-    "eslint-plugin-unicorn": "^37.0.1",
-    "eslint-plugin-unused-imports": "^1.0.0"
+    "eslint-plugin-unicorn": "^38.0.1",
+    "eslint-plugin-unused-imports": "^2.0.0"
   }
 }
