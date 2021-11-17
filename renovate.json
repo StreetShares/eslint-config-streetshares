@@ -1,5 +1,18 @@
 {
   "extends": [
-    "config:base"
-  ]
+    "config:base",
+    ":preserveSemverRanges",
+    "group:all",
+    "schedule:monthly"
+  ],
+  "packageRules": [
+    {
+      "updateTypes": ["minor", "patch", "pin", "digest"],
+      "automerge": true,
+      "automergeType": "pr"
+    }
+  ],
+  "encrypted": {
+    "npmToken": "s+zWTxT19XbFsgKPgWOlChd74xjeEkaTXvTgIgEZdIGSD9KtR9YvLzd83DuouPa+TVgMslC539kYdMlnvwTKCJGwP8lrYkCPxGP+YjcRlVvwcvtz+qJ4tTRwv4bIINRDJu8B0XvqdQdzTCmK92Mrz4X2Jina/4HZN97uYGEdrpuZkGj3UlzrEtIMjSg3geoEVxz0Tw/MZyo3JbEuRQlafWdRvHm+ClI8BBnRa/HKiTMlze9DBbYniSW0w15Wy2/Kt9RqwAL9r/J7ew3tWb6ly22VqV2MeBIZCwOjm7i/0+LU6dIuH/RK2ko1DGiM9e8+Hb4aJju6Hs23imtjkU1FZA=="
+  }
 }
