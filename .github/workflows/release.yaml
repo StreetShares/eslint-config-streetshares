@@ -24,12 +24,14 @@ jobs:
         with:
           path: node_modules
           key: yarn-deps-${{ hashFiles('yarn.lock') }}
-          restore-keys: yarn-deps-${{ hashFiles('yarn.lock') }}
+          restore-keys: |
+            yarn-deps-${{ hashFiles('yarn.lock') }}
 
       - name: Create Release
         env:
           GITHUB_TOKEN: ${{ secrets.NPM_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: yarn install --frozen-lockfile
+        run: |
+          yarn install --frozen-lockfile
           yarn build
           npx auto shipit -d # for now just perform a dry-run until we're happy with the config
