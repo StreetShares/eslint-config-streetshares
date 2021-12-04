@@ -1,4 +1,7 @@
 # eslint-config-streetshares
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-0-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Streetshares ESLint config
 
@@ -27,3 +30,16 @@ npm info @streetshares/eslint-config-streetshares peerDependencies --json
 ## Developing
 
 When working on changes, they can be easily tested by running `yarn link` in the root of the repo, then running `yarn link @streetshares/eslint-config-streetshares` in the app where you'd like to test it. You'll also need to add `extends: ['@streetshares/eslint-config-streetshares']` to the app's ESLint config if it's not already there.
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
